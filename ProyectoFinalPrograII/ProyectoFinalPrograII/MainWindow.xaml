@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProyectoFinalPrograII.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinalPrograII"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="493.985" Width="1079.134">
+    <Grid>
+        <StackPanel  Background="Black" >
+            <Label Margin="0 30 0 30" Content="Ingresar al Sistema" Foreground="#FF898181" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"  FontFamily="Source Sans Pro Semibold" />
+            <Label Content="Ingrese Usuario" Foreground="#FF898181" Margin="25,0,465,0"/>
+            <TextBox x:Name="txtUsuario" Padding="10" VerticalAlignment="Center" Margin="25 0 25 0" Foreground="#FF898181" BorderBrush="#89FFFFFF" CaretBrush="White" Background="Black" />
+            <Label  Content="Ingrese Contraseña" Foreground="#FF898181" Margin="25,0,615,0"/>
+            <TextBox x:Name="txtPassword" Padding="10" VerticalAlignment="Center" Margin="25 0 25 0" Foreground="#FF898181" BorderBrush="#89FFFFFF" CaretBrush="White" Background="Black" />
+            <Button  Content="Ingresar" Margin="25 20 25 0" Background="#FF095F90" BorderBrush="#FF095F90" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
